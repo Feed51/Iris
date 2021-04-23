@@ -25,3 +25,6 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build --stacktrace
+    - name: workflow artifact pull request comment
+      uses: tonyhallett/artifacts-url-comments@v1.1.0
+
